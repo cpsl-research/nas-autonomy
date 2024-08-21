@@ -67,6 +67,10 @@ poetry run jupyter notebook
 Then go into `examples/notebooks` and start playing around with them.
 
 
+### Contributing
+
+Ensure that you have configured the pre-commit hook found in the `hooks` folder. This ensures that images cached in jupyter notebooks are not committed to the repository.
+
 ### Reporting Bugs
 
 I welcome feedback from the community on bugs with this and other repos. Please put up an issue when you find a problem or need more clarification on how to start.

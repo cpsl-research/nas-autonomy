@@ -1,7 +1,7 @@
 NAME := examples
 INSTALL_STAMP := .install.stamp
 POETRY := $(shell command -v poetry 2> /dev/null)
-PYFOLDERS := examples
+PYFOLDERS := examples nas
 .DEFAULT_GOAL := help
 
 .PHONY: help

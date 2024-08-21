@@ -2209,7 +2209,7 @@ tqdm = "^4"
 yapf = "=0.40.1"
 
 [package.extras]
-percep = ["albumentations (>=1.3.1,<1.4.0)", "midas @ file:///home/spencer/Documents/Projects/AVstack/sandboxes/avdev-sandbox/submodules/lib-avstack-core/third_party/MiDaS", "mmcv @ https://g-b0ef78.1d0d8d.03c0.data.globus.org/packages/mmcv/torch1.13.1_cu11.7/mmcv-2.0.1-cp310-cp310-linux_aarch64.whl", "mmcv @ https://g-b0ef78.1d0d8d.03c0.data.globus.org/packages/mmcv/torch1.13.1_cu11.7/mmcv-2.0.1-cp310-cp310-linux_x86_64.whl", "mmdet @ file:///home/spencer/Documents/Projects/AVstack/sandboxes/avdev-sandbox/submodules/lib-avstack-core/third_party/mmdetection", "mmdet3d @ file:///home/spencer/Documents/Projects/AVstack/sandboxes/avdev-sandbox/submodules/lib-avstack-core/third_party/mmdetection3d", "mmengine (>=0.7.3,<0.8.0)", "mmsegmentation @ file:///home/spencer/Documents/Projects/AVstack/sandboxes/avdev-sandbox/submodules/lib-avstack-core/third_party/mmsegmentation", "scikit-learn (>=1.1,<2.0)", "torch @ https://download.pytorch.org/whl/cu117/torch-1.13.1%2Bcu117-cp310-cp310-linux_x86_64.whl", "torch @ https://download.pytorch.org/whl/torch-1.13.1-cp310-cp310-manylinux2014_aarch64.whl#sha256=d9fe785d375f2e26a5d5eba5de91f89e6a3be5d11efb497e76705fdf93fa3c2e", "torchvision @ https://download.pytorch.org/whl/cu117/torchvision-0.14.1%2Bcu117-cp310-cp310-linux_x86_64.whl", "torchvision @ https://download.pytorch.org/whl/torchvision-0.14.1-cp310-cp310-manylinux2014_aarch64.whl#sha256=8a9eb773a2fa8f516e404ac09c059fb14e6882c48fdbb9c946327d2ce5dba6cd"]
+percep = ["albumentations (>=1.3.1,<1.4.0)", "midas @ file:///home/spencer/Documents/Projects/Research/NAS/nas-autonomy/submodules/lib-avstack-core/third_party/MiDaS", "mmcv @ https://g-b0ef78.1d0d8d.03c0.data.globus.org/packages/mmcv/torch1.13.1_cu11.7/mmcv-2.0.1-cp310-cp310-linux_aarch64.whl", "mmcv @ https://g-b0ef78.1d0d8d.03c0.data.globus.org/packages/mmcv/torch1.13.1_cu11.7/mmcv-2.0.1-cp310-cp310-linux_x86_64.whl", "mmdet @ file:///home/spencer/Documents/Projects/Research/NAS/nas-autonomy/submodules/lib-avstack-core/third_party/mmdetection", "mmdet3d @ file:///home/spencer/Documents/Projects/Research/NAS/nas-autonomy/submodules/lib-avstack-core/third_party/mmdetection3d", "mmengine (>=0.7.3,<0.8.0)", "mmsegmentation @ file:///home/spencer/Documents/Projects/Research/NAS/nas-autonomy/submodules/lib-avstack-core/third_party/mmsegmentation", "scikit-learn (>=1.1,<2.0)", "torch @ https://download.pytorch.org/whl/cu117/torch-1.13.1%2Bcu117-cp310-cp310-linux_x86_64.whl", "torch @ https://download.pytorch.org/whl/torch-1.13.1-cp310-cp310-manylinux2014_aarch64.whl#sha256=d9fe785d375f2e26a5d5eba5de91f89e6a3be5d11efb497e76705fdf93fa3c2e", "torchvision @ https://download.pytorch.org/whl/cu117/torchvision-0.14.1%2Bcu117-cp310-cp310-linux_x86_64.whl", "torchvision @ https://download.pytorch.org/whl/torchvision-0.14.1-cp310-cp310-manylinux2014_aarch64.whl#sha256=8a9eb773a2fa8f516e404ac09c059fb14e6882c48fdbb9c946327d2ce5dba6cd"]
 serve = ["mmdeploy-runtime-gpu (>=1.2.0,<2.0.0)", "nvgpu (>=0.10.0,<0.11.0)", "nvidia-cudnn-cu11 (==8.9.4.25)", "onnx (>=1.13.0,<1.14.0)", "tensorrt (>=8.5.3.1,<8.6.0.0)", "torch-model-archiver (>=0.8.2,<0.9.0)", "torch-workflow-archiver (>=0.2.10,<0.3.0)", "torchserve (>=0.8.2,<0.9.0)"]
 
 [package.source]
@@ -2596,7 +2596,7 @@ six = "*"
 terminaltables = "*"
 
 [package.extras]
-all = ["cython", "matplotlib", "numpy", "numpy", "scipy", "shapely", "six", "terminaltables"]
+all = ["cython", "matplotlib", "numpy", "scipy", "shapely", "six", "terminaltables"]
 build = ["cython", "numpy"]
 mim = ["mmcv (>=2.0.0rc4,<2.1.0)", "mmengine (>=0.7.1,<1.0.0)"]
 optional = ["cityscapesscripts", "imagecorruptions", "scikit-learn"]
@@ -2680,7 +2680,7 @@ prettytable = "*"
 scipy = "*"
 
 [package.extras]
-all = ["cityscapesscripts", "clip", "codecov", "diffusers", "einops (==0.3.0)", "flake8", "ftfy", "ftfy", "imageio (==2.9.0)", "imageio-ffmpeg (==0.4.2)", "interrogate", "invisible-watermark", "kornia (==0.6)", "latent-diffusion", "matplotlib", "nibabel", "numpy", "omegaconf (==2.1.1)", "packaging", "prettytable", "pudb (==2019.2)", "pytest", "pytorch-lightning (==1.4.2)", "regex", "regex", "scipy", "streamlit (>=0.73.1)", "taming-transformers", "test-tube (>=0.7.5)", "timm", "torch-fidelity (==0.3.0)", "torchmetrics (==0.6.0)", "transformers (==4.19.2)", "xdoctest (>=0.10.0)", "yapf"]
+all = ["cityscapesscripts", "clip", "codecov", "diffusers", "einops (==0.3.0)", "flake8", "ftfy", "imageio (==2.9.0)", "imageio-ffmpeg (==0.4.2)", "interrogate", "invisible-watermark", "kornia (==0.6)", "latent-diffusion", "matplotlib", "nibabel", "numpy", "omegaconf (==2.1.1)", "packaging", "prettytable", "pudb (==2019.2)", "pytest", "pytorch-lightning (==1.4.2)", "regex", "scipy", "streamlit (>=0.73.1)", "taming-transformers", "test-tube (>=0.7.5)", "timm", "torch-fidelity (==0.3.0)", "torchmetrics (==0.6.0)", "transformers (==4.19.2)", "xdoctest (>=0.10.0)", "yapf"]
 mim = ["mmcv (>=2.0.0rc4,<2.2.0)", "mmengine (>=0.5.0,<1.0.0)"]
 multimodal = ["ftfy", "regex"]
 optional = ["cityscapesscripts", "clip", "diffusers", "einops (==0.3.0)", "imageio (==2.9.0)", "imageio-ffmpeg (==0.4.2)", "invisible-watermark", "kornia (==0.6)", "latent-diffusion", "nibabel", "omegaconf (==2.1.1)", "pudb (==2019.2)", "pytorch-lightning (==1.4.2)", "streamlit (>=0.73.1)", "taming-transformers", "test-tube (>=0.7.5)", "timm", "torch-fidelity (==0.3.0)", "torchmetrics (==0.6.0)", "transformers (==4.19.2)"]
@@ -5158,7 +5158,7 @@ telegram = ["requests"]
 [[package]]
 name = "trackeval"
 version = "1.0.dev1"
-description = "Code for evaluating object tracking"
+description = ""
 optional = false
 python-versions = "*"
 files = []

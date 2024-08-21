@@ -1,17 +1,17 @@
 [tool.poetry]
-name = "avdev-sandbox"
+name = "nas-autonomy"
 version = "0.1.0-alpha.1"
-description = "Sandbox for development and analysis of autonomous vehicles"
+description = "Research project for neural architecture search in autonomy"
 authors = ["Spencer Hallyburton <spencer.hallyburton@duke.edu>"]
 readme = "README.md"
 license = "MIT"
 homepage = "https://avstack.org"
-repository = "https://github.com/avstack-lab/avdev-sandbox"
+repository = "https://github.com/cpsl-research/nas-autonomy"
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Science/Research",
 ]
-keywords = ["AVstack", "autonomy", "autonomous vehicles"]
+keywords = ["AVstack", "autonomy", "autonomous vehicles", "neural architecture search"]
 include = ["CHANGELOG.md"]
 
 [tool.poetry.dependencies]

@@ -32,7 +32,6 @@ MODELFOLDER=${MODELFOLDER%/}  # remove trailing slash
 # ./submodules/lib-avstack-api/data/download_CARLA_datasets.sh ego-lidar $DATAFOLDER
 # ./submodules/lib-avstack-api/data/download_CARLA_datasets.sh multi-agent-v1 $DATAFOLDER
 
-
 # Link to the datasets
-# ln -sf ./submodules/lib-avstack-api/data $DATAFOLDER
-# ./data/add_custom_symlinks.sh
+ln -sf ./submodules/lib-avstack-api/data data
+./data/add_custom_symlinks.sh

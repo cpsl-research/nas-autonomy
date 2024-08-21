@@ -1,6 +1,6 @@
 # AV Development Sandbox
-This is the easiest place to get started with AVstack. It already has [`avstack-core`][core] and [`avstack-api`][api] libraries situated in the appropriate places and dependencies set up with the `poetry.lock` file. Read on for more information on how to get going.
 
+This is a fork of the [`avdev-sandbox`][avdev] for the neural architecture search project. It already has [`avstack-core`][core] and [`avstack-api`][api] libraries situated in the appropriate places and dependencies set up with the `poetry.lock` file. Read on for more information on how to get going.
 
 ## Philosophy
 
@@ -21,9 +21,9 @@ This currently only works on a Linux distribution (tested on Ubuntu 20.04 and 22
 ### Installation
 The best way to get started is to run the following:
 ```
-git clone --recurse-submodules https://github.com/avstack-lab/avdev-sandbox/
-cd avdev-sandbox
-poetry install  # to install the dependencies
+git clone --recurse-submodules https://github.com/cpsl-research/nas-autonomy
+cd nas-autonomy
+make install  # to install the dependencies
 ```
 
 ### Execute Basic Tests
@@ -82,6 +82,7 @@ AVstack specific code is distributed under the MIT License.
 [rtd-page]: https://avstack.readthedocs.io/en/latest/
 [core]: https://github.com/avstack-lab/lib-avstack-core
 [api]: https://github.com/avstack-lab/lib-avstack-api
+[avdev]: https://github.com/avstack-lab/avdev-sandbox
 [avstack-preprint]: https://arxiv.org/pdf/2212.13857.pdf
 [poetry]: https://github.com/python-poetry/poetry
 [mmdet-modelzoo]: https://mmdetection.readthedocs.io/en/stable/model_zoo.html
